@@ -6,6 +6,7 @@ Email: agosalaurah@gmail.com
 ## Certification Project: IABAC – Certified Data Scientist
 Assessment ID: E10901-PR2-V18
 Dataset Source: IABAC™ Learning Dataset
+
 Tools Used: Python, Jupyter Notebook, Scikit-Learn, Pandas, Matplotlib, Seaborn
 
 ## 📌 Project Overview
