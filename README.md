@@ -1,20 +1,20 @@
-📊 Employee Performance Analysis & Prediction – INX Future Inc.
+# 📊 Employee Performance Analysis & Prediction – INX Future Inc.
 
 Author: Libese Laurah Agosa
 Email: agosalaurah@gmail.com
 
-Certification Project: IABAC – Certified Data Scientist
+## Certification Project: IABAC – Certified Data Scientist
 Assessment ID: E10901-PR2-V18
 Dataset Source: IABAC™ Learning Dataset
 Tools Used: Python, Jupyter Notebook, Scikit-Learn, Pandas, Matplotlib, Seaborn
 
-📌 Project Overview
+## 📌 Project Overview
 
 This project focuses on analyzing and predicting employee performance using demographic, experiential, and job-related factors. It was completed as part of the IABAC Certified Data Scientist assessment.
 
 Using a dataset of 1,200 employees with 28 features, I explored key performance drivers, conducted department-level analysis, and built predictive machine learning models to classify employee performance ratings.
 
-🎯 Objectives
+## 🎯 Objectives
 General Objective
 
 Develop a predictive machine learning model to estimate employee performance based on structured HR data.
@@ -31,7 +31,7 @@ Train and evaluate multiple machine learning models.
 
 Recommend actionable strategies to improve performance.
 
-📁 Dataset Description
+## 📁 Dataset Description
 
 1200 rows × 28 features
 
@@ -47,7 +47,7 @@ Categorical: Department, JobRole, Gender, BusinessTravelFrequency
 
 Excluded variable: EmpNumber (identifier, no predictive value)
 
-🔍 Exploratory Data Analysis (EDA)
+## 🔍 Exploratory Data Analysis (EDA)
 
 The analysis included univariate, bivariate, and multivariate visualizations using:
 
@@ -61,7 +61,7 @@ Histograms
 
 Correlation matrices
 
-Key Insights
+## Key Insights
 
 Environment satisfaction and salary hike percentages are strong positive indicators of performance.
 
@@ -69,7 +69,7 @@ Experience-related variables are highly intercorrelated (natural career progress
 
 Most departments peak at Rating 3, but Sales, Development, and R&D show strong representation of Rating 4 performers.
 
-🛠 Data Preprocessing Steps
+## 🛠 Data Preprocessing Steps
 
 Handled categorical encoding (Label Encoding, Mapping, Frequency Encoding)
 
@@ -83,7 +83,7 @@ Feature scaling using StandardScaler
 
 80/20 Train-Test split
 
-🤖 Machine Learning Models
+## 🤖 Machine Learning Models
 
 Three models were trained and compared:
 
@@ -95,7 +95,7 @@ K-Nearest Neighbors (KNN)	84.76%	0.8851	Sensitive to k selection
 
 Random Forest achieved the highest accuracy and ROC-AUC, demonstrating robust classification across all rating categories.
 
-⭐ Feature Importance (Top Drivers of Performance)
+## ⭐ Feature Importance (Top Drivers of Performance)
 
 According to Random Forest Gini Importance:
 
@@ -111,7 +111,7 @@ EmpJobRole
 
 These features demonstrate that workplace satisfaction, salary growth, and career progression significantly affect performance outcomes.
 
-🏢 Department-wise Performance Analysis
+## 🏢 Department-wise Performance Analysis
 🔹 Sales
 
 High proportion of Rating 3 and 4 performers; strong performance culture.
@@ -132,7 +132,7 @@ Stable and consistent performers, mostly at Rating 3.
 
 Lowest performance distribution—needs targeted support.
 
-📝 Recommendations
+## 📝 Recommendations
 
 To improve performance at INX Future Inc., the company should:
 
@@ -148,7 +148,7 @@ Promote work-life balance and monitor overtime.
 
 Focus development strategies on low-performing departments such as Data Science.
 
-💾 Model Deployment
+## 💾 Model Deployment
 
 The Random Forest model was saved using pickle for future predictions and integration into applications such as:
 
@@ -158,7 +158,7 @@ HR dashboards
 
 Streamlit-based ML applications
 
-📚 Technologies & Libraries
+## 📚 Technologies & Libraries
 
 Python
 
@@ -174,7 +174,7 @@ SMOTENC (imbalanced-learn)
 
 Pickle
 
-📂 Repository Structure (Suggested)
+## 📂 Repository Structure (Suggested)
 ├── README.md
 ├── employee_performance.ipynb
 ├── performance_summary.md
@@ -185,7 +185,7 @@ Pickle
 ├── images/
 │   └── plots_from_EDA/
 
-📌 Conclusion
+## 📌 Conclusion
 
 This project successfully developed a data-driven framework for analyzing and predicting employee performance.
 The insights gained can support HR teams in:
